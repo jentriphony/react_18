@@ -1,0 +1,32 @@
+.logo {
+  font-size: 2rem;
+  color: white;
+}
+
+.nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav li {
+  margin-left: 1.6rem;
+  font-size: 1rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:active {
+  color:rgba(128, 255, 128, 0.8);
+}
+
+.nav a.active {
+  display: block;
+  padding: 0.001rem ;
+  color: rgba(128, 255, 128, 0.8);
+}

@@ -1,0 +1,73 @@
+.item {
+  width: 64%;
+  margin: 1rem auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-shadow: 0 2px 4px black;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.item:last-of-type {
+  border-bottom: none;
+}
+
+.item figure {
+  margin: 0;
+  padding: 0;
+  width: 64%;
+}
+
+.item blockquote {
+  margin: 0;
+  text-align: left;
+  font-size: 1.6rem;
+  color: black;
+}
+
+.item a {
+  margin: 0;
+  margin-bottom: 0.2rem;
+  text-decoration: none;
+  color: rgba(128, 255, 128, 0.8);
+}
+
+.item a:hover,
+.item a:active {
+  color: white;
+}
+
+.item figcaption {
+  font-style: italic;
+  color: white;
+}
+
+.full-screen {
+  position: fixed;
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px 8px black;
+  border: 2px solid rgba(128, 255, 128, 0.8);
+  border-radius: 15%;
+  background: black;
+  color:rgba(128, 255, 128, 0.8);
+  font-size: 1.6rem;
+}
+
+.full-screen a {
+  text-decoration: none;
+  color: white;
+}
+
+.full-screen a:hover,
+.full-screen a:active {
+  color: rgba(128, 255, 128, 0.8);
+}

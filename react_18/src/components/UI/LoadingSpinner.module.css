@@ -1,0 +1,26 @@
+.spinner {
+  /* display: inline-block; */
+  width: 1rem;
+  height: 1rem;
+  border-radius: 64%;
+  border: 1rem solid rgba(128, 255, 128, 0.8);
+  border-color: rgba(128, 255, 128, 0.8) transparent rgba(128, 255, 128, 0.8) transparent;
+  animation: spinner 2s linear infinite;
+}
+
+/* .spinner::after {
+  content: ' ';
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  margin: 1rem;
+  border-radius: 64%;
+  border: 1rem solid rgba(128, 255, 128, 0.8);
+  border-color: rgba(128, 255, 128, 0.8) transparent rgba(128, 255, 128, 0.8) transparent;
+  animation: spinner 2s linear infinite;
+} */
+
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

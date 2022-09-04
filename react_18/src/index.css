@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+.focused {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.btn {
+  width: fit-content;
+  text-decoration: none;
+  color: black;
+  border-radius: 4px;
+  padding: 0.8rem 1.6rem;
+  box-shadow: 0 0 2px 2px black;
+  border: 2px solid rgba(128, 255, 128, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(128, 255, 128, 0.8);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  color: white;
+  border-color: white;
+}
+
+.btn--flat {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 4px;
+  background-color: none;
+  color: rgba(128, 255, 128, 0.8);
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn--flat:hover,
+.btn--flat:active {
+  background-color:rgba(128, 255, 128, 0.8);
+  color: black;
+}

@@ -1,0 +1,44 @@
+.list {
+  width: 64%;
+  list-style: none;
+  margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.sort-button {
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 0.4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(128, 255, 128, 0.8);
+  border-radius: 32%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(128, 255, 128, 0.8);
+  cursor: pointer;
+}
+
+.sort-button:hover,
+.sort-button:active {
+  border-color: white;
+  border-radius: 16%;
+  color: white;
+}
+
+.sort button {
+  font: inherit;
+  color: rgba(128, 255, 128, 0.8);
+  border: 1px solid rgba(128, 255, 128, 0.8);
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 0.4rem 1.6rem;
+  cursor: pointer;
+}
+
+.sort button:hove {
+  background-color: black;
+}

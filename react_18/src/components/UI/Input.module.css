@@ -1,0 +1,47 @@
+.input {
+  width: 64%;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input label:first-child {
+  margin-top: 0;
+}
+
+.input label {
+  margin-top: 2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.input input,
+.input textarea {
+  font: inherit;
+  margin-top: 0.4rem;
+  padding: 1rem;
+  border: 2px solid gray;
+  border-radius: 16%;
+  display: block;
+  width: 100%;
+  font-size: 1.6rem;
+  resize: none;
+}
+
+.input input {
+  text-align: center;
+}
+
+.input textarea {
+  height: 32vh;
+}
+
+.input input:focus,
+.input textarea:focus {
+  border-color: black;
+  outline: none;
+}

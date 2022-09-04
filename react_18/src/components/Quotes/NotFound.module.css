@@ -1,0 +1,16 @@
+.not-found {
+  height: 16rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not-found p {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
